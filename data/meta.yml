@@ -1,0 +1,37 @@
+# Метаданные команды.
+#
+# Этот файл пишет воркфлоу provision-team.yml по заявке, вместе с правами
+# на запись в репозиторий. Поэтому:
+#
+#   members — ведёт пульт. Правьте только через заявку «Изменение состава»,
+#             иначе права на GitHub перестанут совпадать с файлом.
+#   stakeholders, concept, stage, internal_notes — ваши. Меняйте в Pull Request.
+#   id, name, track, group, number, repo — ведёт пульт.
+#
+# Файл проверяется при каждом Pull Request.
+
+id: team-learning-06
+name: Команда №6
+track: learning
+group: 26.М01-нето-пу
+number: '06'
+repo: hrtech2026/team-learning-06
+members:
+  - login: kristipodolski
+    name: ''
+    role: captain
+  - login: GusevaAnastasia
+    name: ''
+    role: analyst
+  - login: Krikker
+    name: ''
+    role: architect
+stakeholders:
+  - Сотрудник после performance review
+  - Руководитель
+  - HR и команда обучения и развития
+  - Компания
+concept: На основе рекомендаций по итогам performance review сервис предлагает сотруднику рабочие задачи, которые помогают развить нужные навыки или попробовать отдельные обязанности новой роли на текущей позиции.
+stage: idea
+created_at: '2026-10-14'
+internal_notes: ''
